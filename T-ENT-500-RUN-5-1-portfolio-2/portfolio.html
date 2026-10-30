@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Dimitri Agathe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="grey">
+    <nav id="menu">
+        <div class="profile">
+            <h1>AGATHE Dimitri</h1>
+        </div>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/dimitri-agathe-34415a421/" target="_blank"><img src="logo-linkedin.png"></a></li>
+                <li><a href="https://github.com/didimdim" target="_blank"><img src="logo-github.png"></a></li>
+            </ul>
+            
+    </nav>
+    
+    <section id="containerheader" class="pagemain">
+        <header>
+            <h1>Année préparatoire<br> au Master of Sciences à Epitech Réunion</h1>
+            <br>
+            <h2>FORMATIONS</h2>
+            <ul id="formations">
+                <li>BAC PRO COMMERCE</li>
+                <li>BTS NDRC (Négociation Digitalisation de la relaction client)</li>
+            </ul>
+        </header>
+
+        <section class="photo">
+            <img src="photodim.jpg" class="imgdim"></img>
+        </section>
+
+    </section>
+
+
+
+    <br>
+    <section id="containerbody" class="interets">
+        <article>
+            <h1>Intérêts</h1>
+            <br>
+            <div class="domaines">
+                <img src="machinelearning.jpg" class="machinelearning">
+                <img src="logodata.avif" class="data">
+            </div>
+        </article>
+        
+    </section>
+
+    <footer id="containerfooter">
+        <form action="/submit" method="POST">
+
+            <h1> Contactez moi : </h1>
+            
+            <label for="Firstname">First name:</label>
+            <input type="text" id="Firstname" name="Firstname" required><br><br>
+
+            <label for="Lastname">Last name:</label>
+            <input type="text" id="Lastname" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" minlength="10" maxlength="10"><br><br>
+
+
+            <button type="submit">Submit</button>
+        </form> 
+    </footer>
+
+</body>
+</html>
