@@ -6,7 +6,7 @@ import {LetterText} from "lucide-react";
 const aboutSections = [
     {
         id: 1,
-        title: "Recherche d'alternance dans le domaine de la Data/IA",
+        title: "Recherche d'alternance dans le domaine de la Data/IA (à partir de janvier 2027)",
         description: "En tant que profil junior, je me distingue par ma curiosité, ma rigueur et une forte envie de progresser. Ce qui m'anime : la possibilité d'analyser des données, de construire des algorithmes et de participer au analyse statistiques dans les domaines stratégiques tel que la géopolitique, l'économie, le commerce/marketing... Convaincu que chaque secteur cache un potentiel de données qui sont bon pour analyse afin d'avoir une meilleure comprehension de l'environnement qui nous entoure.",
         icon: <LetterText className="text-accent scale-150" />,
     }
