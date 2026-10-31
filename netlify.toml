@@ -1,0 +1,4 @@
+[build]
+  base = "T-ENT-500-RUN-5-1-portfolio-2"
+  command = "npm run build"
+  publish = "dist"
